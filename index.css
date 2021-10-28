@@ -7,7 +7,6 @@
 #55c57a;
  #7ed56f;
 #28b485;
-
 #ffb900;
  #ff7730;
 
@@ -25,9 +24,84 @@
 }
 body {
     font-family: 'Times New Roman', Times, serif;
-    background-image: linear-gradient(to right bottom, rgba(238, 238, 238, 0.3), rgba(119, 119, 119, 0.3)), url(./img/img\ 2.jpeg); 
+    background-image: linear-gradient(to right bottom, rgba(238, 238, 238, 0.1), rgba(119, 119, 119, 0.1)), url(./img/img\ 2.jpeg); 
     background-size: cover;
     background-position: center;
     height: 100vh;
+    margin: 0;
 }
+.header {
+    background-color: #000c0cd7;
+    display: flex;
+    position: relative;
+}
+.header__heading {
+    color: #eee;
+    text-transform: capitalize;
+    margin-bottom: 0;
+    margin-top: 10px;
+    font-size: 20px;
+}
+.header__link {
+    margin: 0 0 0 -36px;
+    margin-bottom: 7px;
+}
+.header__link a:link{
+    text-decoration: none;
+    color: #999;
+    
+}
+.header__link a:link:hover {
+    color: #eee;
+}
+.btn {
+    padding: 9px 12px;
+    font-size: 18px;
+    margin: 2px;
+    border-radius: 5px;
+    border-style: none;
+    text-transform: capitalize;
+    cursor: pointer;
+    color: #eee;   
+    display: inline-block; 
+}
+.btn:hover{
+    color: #fff;
+    background-color: #1d2951;
+}
+.btn-heart {
+    position: absolute;
+    right: 335px;
+    top: 10px;
+    background-color: #27c4c4d7;;
+    
+}
+.btn-follow {
+    position: absolute;
+    top: 32px;
+    left: 164px;
+    background-color: #1a5286;
+    font-size: 12px;
+    padding: 2px 6px;
+}
+.btn-view {
+    position: absolute;
+    right: 195px;
+    top: 10px;
+    background-color: #27c4c4d7;;
+}
+.btn-signup {
+    position: absolute;
+    right: 100px;
+    top: 10px;
+    background-color: #1a5286;;
+}
+.btn-login {
+    position: absolute;
+    right: 20px;
+    top: 10px;
+    background-color:  #27c4c4d7;
+}
+
+
 
