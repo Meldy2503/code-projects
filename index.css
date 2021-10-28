@@ -24,11 +24,12 @@
 }
 body {
     font-family: 'Times New Roman', Times, serif;
-    background-image: linear-gradient(to right bottom, rgba(238, 238, 238, 0.1), rgba(119, 119, 119, 0.1)), url(./img/img\ 2.jpeg); 
+    background-color: #fff; 
     background-size: cover;
     background-position: center;
     height: 100vh;
     margin: 0;
+    padding: 3px;
 }
 .header {
     background-color: #000c0cd7;
@@ -73,7 +74,7 @@ body {
     position: absolute;
     right: 335px;
     top: 10px;
-    background-color: #27c4c4d7;;
+    background-color: #64f0f0d7;;
     
 }
 .btn-follow {
@@ -88,7 +89,7 @@ body {
     position: absolute;
     right: 195px;
     top: 10px;
-    background-color: #27c4c4d7;;
+    background-color: #64f0f0d7;;
 }
 .btn-signup {
     position: absolute;
@@ -100,7 +101,23 @@ body {
     position: absolute;
     right: 20px;
     top: 10px;
-    background-color:  #27c4c4d7;
+    background-color:  #64f0f0d7;
+}
+.homepage {
+    background-color: #eee;
+    height: 50%;
+    width: 98%;
+    text-align: center;
+    margin: 0 auto;
+}
+.homepage__heading {
+    font-weight: 700;
+    font-size: 40px;
+    margin: 30px;
+}
+.homepage__img {
+    text-align: center;
+    background-color: #fff;
 }
 
 
