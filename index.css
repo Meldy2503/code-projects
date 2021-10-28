@@ -1,0 +1,33 @@
+/* #777;
+#fff;
+#000;
+#333;
+ #eee;
+ #999; 
+#55c57a;
+ #7ed56f;
+#28b485;
+
+#ffb900;
+ #ff7730;
+
+ #2998ff;
+#5643fa;
+ 
+ */
+
+*,
+*::after 
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Times New Roman', Times, serif;
+    background-image: linear-gradient(to right bottom, rgba(238, 238, 238, 0.3), rgba(119, 119, 119, 0.3)), url(./img/img\ 2.jpeg); 
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+
