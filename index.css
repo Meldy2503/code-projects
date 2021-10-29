@@ -14,15 +14,19 @@
 #5643fa;
  
  */
-
 *,
 *::after 
 *::before {
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
+    box-sizing: inherit;
+
+}
+html {
+    font-size: 62.5%; /*font-size 1em = 10px on default browser settings*/
 }
 body {
+    box-sizing: border-box;
     font-family: 'Times New Roman', Times, serif;
     background-color: #fff; 
     background-size: cover;
@@ -30,6 +34,7 @@ body {
     height: 100vh;
     margin: 0;
     padding: 3px;
+    font-size: 1.8rem;
     
 }
 .header {
@@ -51,31 +56,33 @@ body {
     color: #eee;
     text-transform: capitalize;
     margin-bottom: 0;
-    margin-top: 10px;
-    font-size: 20px;
+    margin-top: 1rem;
+    font-size: 2rem;
 }
 .header__link {
-    margin: 0 0 0 -36px;
-    margin-bottom: 7px;
+    margin: 0 0 0 -3.6rem;
+    margin-bottom: .7rem;
 }
 .header__link a:link{
     text-decoration: none;
     color: #999;
+    font-size: 1.5rem;
     
 }
 .header__link a:link:hover {
     color: #eee;
 }
 .btn {
-    padding: 9px 12px;
-    font-size: 18px;
-    margin: 2px;
-    border-radius: 5px;
+    padding: .9rem 1.2rem;
+    font-size: 1.8rem;
+    margin: .2rem;
+    border-radius: .5rem;
     border-style: none;
     text-transform: capitalize;
     cursor: pointer;
     color: #eee;   
-    display: inline-block; 
+    display: block; 
+
 }
 .btn:hover{
     color: #fff;
@@ -83,36 +90,41 @@ body {
 }
 .btn-heart {
     position: absolute;
-    right: 335px;
-    top: 10px;
-    background-color: #64f0f0d7;;
+    right: 33.5rem;
+    top: 1rem;
+    background-color: #64f0f0d7;
     
 }
 .btn-follow {
     position: absolute;
-    top: 32px;
-    left: 164px;
+    top: 3.2rem;
+    left: 15.7rem;
     background-color: #1a5286;
-    font-size: 12px;
-    padding: 2px 6px;
+    font-size: 1.2rem;
+    padding: .3rem;
+    
+
 }
 .btn-view {
     position: absolute;
-    right: 195px;
-    top: 10px;
-    background-color: #64f0f0d7;;
+    right: 19.5rem;
+    top: 1rem;
+    background-color: #64f0f0d7;
+    
 }
 .btn-signup {
     position: absolute;
-    right: 100px;
-    top: 10px;
-    background-color: #1a5286;;
+    right: 10rem;
+    top: 1rem;
+    background-color: #1a5286;
+
 }
 .btn-login {
     position: absolute;
-    right: 20px;
-    top: 10px;
+    right: 2rem;
+    top: 1rem;
     background-color:  #64f0f0d7;
+
 }
 .homepage {
     background-color: #eee;
@@ -120,19 +132,19 @@ body {
     width: 99%;
     text-align: center;
     margin: 0 auto;
-    border-radius: 5px;
+    border-radius: .5rem;
     
 }
 .homepage__heading {
     font-family: 'Ultra', serif;
     font-weight: 700;
-    font-size: 40px;
-    margin: 30px;
-    padding: 60px;
+    font-size: 4rem;
+    margin: 3rem;
+    padding: 6rem;
     color: #4d4d4d;
 }
 .homepage__text {
-    margin-top: -70px;
+    margin-top: -8rem;
     color: rgb(68, 67, 67);
     font-weight: 300;
     font-family: 'Cantarell', sans-serif;
@@ -140,39 +152,54 @@ body {
 .homepage__img {
     text-align: center;
     background-color: #fff;
-    border-radius: 5px;
+    border-radius: .5rem;
     width: 98%;
     margin: 0 auto;
+}
+.responsive-img {
+    max-width: 100%;
+    height: auto;
 }
 .homepage__img--caption {
     color: rgb(68, 67, 67);
     font-weight: 300;
     font-family: 'Cantarell', sans-serif;
-    padding: 10px;
+    padding: 1rem;
     text-align: center;
+    font-size: 1.6rem;
 }
 .homepage__story {
     color: rgb(68, 67, 67);
     font-weight: 300;
     font-family: 'Cantarell', sans-serif;
-    width: 40%;
     display: inline-block;
     text-align: left;
-    font-size: 16px;
 }
 .homepage__subheading {
-    font-size: 18px;
     text-align: center;
-    padding: 30PX;
+    padding: 3rem;
+}
+.homepage__ul {
+    max-width: 55rem;
+    margin: 0 auto;
+    font-size: 1.7rem;
 }
 .homepage__ul li {
-    line-height: 1.3;
+    line-height: 1.5;
+}
+.homepage__para {
+    max-width: 60rem;
+    margin: 0 auto;
+    padding: 3rem;
+    font-size: 1.7rem;
+
 }
 .homepage__directory {
     color: rgb(68, 67, 67);
-    font-size: 13px;
+    font-size: 1.3rem;
     font-family: 'Cantarell', sans-serif;
-    padding: 30px;
+    padding: 4rem;
+    
 }
 .homepage__directory a {
     color:  #377bbb
