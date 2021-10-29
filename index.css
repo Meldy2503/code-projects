@@ -30,12 +30,23 @@ body {
     height: 100vh;
     margin: 0;
     padding: 3px;
+    
 }
 .header {
     background-color: #000c0cd7;
     display: flex;
+    flex-direction: column;
+    position: fixed;
+    top: 0; /* this is used to place the header at a fixed position */
+    left: 0;
+    right: 0;
+
+}
+.header__content {
+    display: flex; /*this is for the  header content  */
     position: relative;
 }
+
 .header__heading {
     color: #eee;
     text-transform: capitalize;
@@ -106,19 +117,41 @@ body {
 .homepage {
     background-color: #eee;
     height: 50%;
-    width: 98%;
+    width: 99%;
     text-align: center;
     margin: 0 auto;
+    border-radius: 5px;
+    
 }
 .homepage__heading {
+    font-family: 'Ultra', serif;
     font-weight: 700;
     font-size: 40px;
     margin: 30px;
+    padding: 40px;
+    color: #4d4d4d;
+}
+.homepage__text {
+    margin-top: -50px;
+    color: rgb(68, 67, 67);
+    font-weight: 300;
+    font-family: 'Cantarell', sans-serif;
 }
 .homepage__img {
     text-align: center;
     background-color: #fff;
+    border-radius: 5px;
+    width: 98%;
+    margin: 0 auto;
 }
+.homepage__img--caption {
+    color: rgb(68, 67, 67);
+    font-weight: 300;
+    font-family: 'Cantarell', sans-serif;
+    padding: 5px;
+    text-align: center;
+}
+
 
 
 
