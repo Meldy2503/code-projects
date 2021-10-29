@@ -128,11 +128,11 @@ body {
     font-weight: 700;
     font-size: 40px;
     margin: 30px;
-    padding: 40px;
+    padding: 60px;
     color: #4d4d4d;
 }
 .homepage__text {
-    margin-top: -50px;
+    margin-top: -70px;
     color: rgb(68, 67, 67);
     font-weight: 300;
     font-family: 'Cantarell', sans-serif;
@@ -151,6 +151,30 @@ body {
     padding: 5px;
     text-align: center;
 }
+.homepage__story {
+    color: rgb(68, 67, 67);
+    font-weight: 300;
+    font-family: 'Cantarell', sans-serif;
+    width: 40%;
+    display: inline-block;
+    text-align: left;
+    font-size: 16px;
+}
+.homepage__subheading {
+    font-size: 18px;
+    text-align: center;
+    padding: 30PX;
+}
+.homepage__nav {
+
+}
+.homepage__ul {
+   line-height: ;
+}
+.homepage__ul li {
+    line-height: 1.3;
+}
+
 
 
 
